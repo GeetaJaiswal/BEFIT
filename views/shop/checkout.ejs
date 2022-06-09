@@ -144,9 +144,9 @@
                                     <li><%- cartDetails[i][0].product_name %> <b>(<%- quantity[j] %>)</b><span> ₹ <%- (cartDetails[i][0].regular_price * quantity[j]).toLocaleString() %></span></li>
                                     <% j++; } %>    
                                 </ul>
-                                <div class="checkout__order__subtotal">Subtotal <span>₹<%- subtotal.toLocaleString() %></span></div>
-                                <input type="hidden" name="amount" value="<%- subtotal.toLocaleString() %>">
-                                <div class="checkout__order__total">Total <span >₹<%- subtotal.toLocaleString() %></span></div>
+                                <div class="checkout__order__subtotal" style="color: #000" >Subtotal <span>₹<%- subtotal.toLocaleString() %></span></div>
+                                <input type="hidden" name="amount" value="<%- subtotal.toLocaleString() %>" style="color: #000">
+                                <div class="checkout__order__total" style="color: #000">Total <span >₹<%- subtotal.toLocaleString() %></span></div>
                                 <button type="submit" class="site-btn" onclick="checkout()">PLACE ORDER</button></a>
                             </div>
                         </div>
