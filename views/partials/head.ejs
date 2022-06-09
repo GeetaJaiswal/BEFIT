@@ -9,7 +9,7 @@
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
             <a href="/">
-                <!-- <h3 style="color: #FF4B4B">BEFIT</h3> -->
+                <h3 style="color: #FF4B4B">BEFIT</h3>
                 <!-- <img src="/shop/img/logo.png" alt="" srcset=""> -->
             </a>
         </div>
@@ -36,24 +36,24 @@
         </div>
         <nav class="humberger__menu__nav mobile-menu">
             <ul class="nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/products">Shop</a></li>
-                <li><a href="#">Fitness Check</a></li>
-                <li><a href="/contact">Contact</a></li>
-                <li><a href="/login">Login</a></li>
-                <li><a href="/cart">Shoping Cart</a></li>
-                <li><a href="/checkout">Check Out</a></li>
+                <li class="active"><a href="/" style="color: #000">Home</a></li>
+                <li><a href="/products" style="color: #000">Shop</a></li>
+                <!-- <li><a href="#" style="color: #000">Fitness Check</a></li> -->
+                <li><a href="/contact" style="color: #000">Contact</a></li>
+                <li><a href="/login" style="color: #000">Login</a></li>
+                <li><a href="/cart" style="color: #000">Shoping Cart</a></li>
+                <li><a href="/checkout" style="color: #000">Check Out</a></li>
                 <!-- <li><a href="#">Blog Details</a></li> -->
-                <li><a href="/order-tracking">Track Your Order</a></li>
+                <li><a href="/order-tracking" style="color: #000">Track Your Order</a></li>
                 <!-- <li><a href="./blog.html">Blog</a></li> -->
             </ul>
         </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#"><i class="fab fa-facebook" style="color: #000"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: #000"></i></a>
+            <a href="#"><i class="fab fa-linkedin" style="color: #000"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p" style="color: #000"></i></a>
         </div>
         <div class="humberger__menu__contact">
             <ul>
@@ -83,18 +83,18 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li class="text-dark"><i class="fa fa-envelope text-dark"></i> info@befit.com</li>
-                                <li class="text-dark">Free Shipping on all Orders</li>
+                                <li style="color:#000"><i class="fa fa-envelope text-dark"></i> info@befit.com</li>
+                                <li style="color:#000">Free Shipping on all Orders</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
                             <div class="header__top__right__social">
-                                <a href="#"><i class="fab fa-facebook text-dark"></i></a>
-                                <a href="#"><i class="fab fa-twitter text-dark"></i></a>
-                                <a href="#"><i class="fab fa-linkedin text-dark"></i></a>
-                                <a href="#"><i class="fab fa-pinterest-p text-dark"></i></a>
+                                <a href="#"><i class="fab fa-facebook" style="color: #000"></i></a>
+                                <a href="#"><i class="fab fa-twitter" style="color: #000"></i></a>
+                                <a href="#"><i class="fab fa-linkedin" style="color: #000"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p" style="color: #000"></i></a>
                             </div>
                             <!-- <div class="header__top__right__language">
                                 <img src="img/language.png" alt="">
@@ -106,7 +106,7 @@
                                 </ul>
                             </div> -->
                             <div class="header__top__right__auth text-dark">
-                                <% if(cookies!=undefined){ %><%- registeredUser %><form method="post" action="/logout" class="d-inline px-3 "><button type="submit" class="bg-transparent border-0"><i class="fa-solid fa-arrow-right-from-bracket"></i></form><% } else { %><a href="/login"><i class="fa fa-user"></i> Login</a><% } %>
+                                <% if(cookies!=undefined){ %><%- registeredUser %><form method="post" action="/logout" class="d-inline px-3 "><button type="submit" class="bg-transparent border-0"><i class="fa-solid fa-arrow-right-from-bracket"></i></form><% } else { %><a href="/login" style="color:#000"><i class="fa fa-user text-dark"></i> Login</a><% } %>
                             </div>
                         </div>
                     </div>
