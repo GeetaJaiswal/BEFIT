@@ -1,5 +1,5 @@
 :root {
-    --blue: #1e4261;
+    --blue: #0E1117;
     --white: #fff;
     --gray: #c7cbcf;
   }
@@ -142,7 +142,7 @@
   }
   
   .top-bar {
-    background: #012d54c7;
+    background: #262730;
     padding: 12px 2px;
     top: 0;
     position: sticky;
@@ -153,7 +153,7 @@
   .content .con {
     /* border: 1px solid var(--gray); */
     border-radius: 4px;
-    background: var(--blue);
+    background: #262730;
     color: #fff;
   }
   
@@ -297,7 +297,7 @@
 
     /* ######  Admin Login  ####### */
     .admin-login {
-      background-color: #1e4261;
+      background-color: #262730;
     }
 
     .adminform-body {

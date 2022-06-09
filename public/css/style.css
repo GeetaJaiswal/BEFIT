@@ -34,7 +34,8 @@ body {
     /* font-family: var(--body-font); */
     font-family: "Cairo", sans-serif;
     font-size: var(--normal-font-size);
-    transition: .5s
+    transition: .5s;
+    background: #0E1117;
 }
 
 a {

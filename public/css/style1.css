@@ -34,7 +34,7 @@ body
 	padding: 0px;
 }
 body {
-	background: #FFF;
+	background: #0E1117;
 	font-weight: normal;
 	position: relative;
 	font-size: 13px;
@@ -804,11 +804,11 @@ dding: 0 20px;
 	border-left: none;
 }
 .sec-choose .choose-tab .nav-tabs>li>a:hover {
-	background: #044782;
+	background: #FF4B4B;
 	color: #fff;
 }
 .sec-choose .choose-tab .nav-tabs li.active a {
-	background: #044782;
+	background: #FF4B4B;
 	color: #fff;
 }
 .sec-choose .choose-tab .nav-tabs li i {
@@ -827,7 +827,7 @@ dding: 0 20px;
 	bottom: 0px;
 	right: 0px;
 	padding: 40px;
-	background: #044782db;
+	background: #FF4B4Bdb;
 }
 .sec-choose .text-content i {
 	font-size: 30px;

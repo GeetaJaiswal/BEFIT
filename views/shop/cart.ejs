@@ -68,7 +68,7 @@
                                         <div class="quantity">
                                             <div class="pro-qty">
                                                 <span class="dec qtybtn" min="1" onclick="qtyChange('<%- cartDetails[i][0]._id %>','<%- pro %>','<%- cartDetails[i][0].regular_price %>','<%- proTotal %>','minus')">-</span>
-                                                <input type="text" value="<%- quantity[j] %>" id=<%- pro %>>
+                                                <input type="text" style="color:#000" value="<%- quantity[j] %>" id=<%- pro %>>
                                                 <span class="inc qtybtn" onclick="qtyChange('<%- cartDetails[i][0]._id %>','<%- pro %>','<%- cartDetails[i][0].regular_price %>','<%- proTotal %>','plus')">+</span>
                                             </div>
                                         </div>
@@ -107,10 +107,10 @@
                 </div> -->
                 <div class="col-lg-6">
                     <div class="shoping__checkout">
-                        <h5>Cart Total</h5>
+                        <h5 style="color:#000">Cart Total</h5>
                         <ul>
-                            <li>Subtotal <span id="subTotal">₹<%- subtotal.toLocaleString() %></span></li>
-                            <li>Total <span id="total">₹<%- subtotal.toLocaleString() %></span></li>
+                            <li style="color:#000">Subtotal <span id="subTotal">₹<%- subtotal.toLocaleString() %></span></li>
+                            <li style="color:#000">Total <span id="total">₹<%- subtotal.toLocaleString() %></span></li>
                         </ul>
                         <a href="/checkout" class="primary-btn">PROCEED TO CHECKOUT</a>
                     </div>
@@ -133,9 +133,9 @@
     <!-- Not Login Cart --->
     <% if(cart=='notLogin'){ %>
         <div class="h-100 d-flex justify-content-center align-items-center flex-column">
-            <h2>Login to access your cart</h2>
+            <h2 class="text-light mb-3">Login to access your cart</h2>
             <img src="/shop/img/products/login (1).gif" alt="empty-cart" width="50%">
-            <a href="/login"><button class="primary-btn border-0">Login Here</button></a>
+            <a href="/login"><button class="primary-btn border-0 mt-3">Login Here</button></a>
         </div>
     <% } %>
 
